@@ -47,8 +47,6 @@ clearfix::after {
 }
 
 .error-message {
-  font-size: 12px;
-  list-style: square;
   margin-left: 60px;
 }
 
@@ -98,4 +96,13 @@ clearfix::after {
 
 div.field, div.actions {
     margin-bottom: 10px;
+}
+
+.devise-error-message {
+  color: red;
+}
+
+.devise-error-messages {
+  color: red;
+  margin-left: 40px;
 }
