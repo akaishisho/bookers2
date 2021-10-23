@@ -91,6 +91,11 @@ clearfix::after {
   content: '\f2f6';
 }
 
+.fa-user-cog:before {
+  font-family: FontAwesome;
+  content: '\f4fe';
+}
+
 div.field, div.actions {
     margin-bottom: 10px;
 }
