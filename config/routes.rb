@@ -9,6 +9,7 @@ devise_for :users, controllers: {
   root "homes#top"
 
   get "/home/about" => "homes#about"
+  get '/search', to: 'searchs#search'
   resources :users
   resources :books do
     resource :favorites,only:[:create,:destroy]
